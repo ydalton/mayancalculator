@@ -1,0 +1,5 @@
+#+title: Mayan Long Count calculator
+
+This is an example GTK4/Libadwaita application, to calculate the long count
+date of the current date. I wrote this to learn more about Vala and
+GTK4/Libadwaita.
