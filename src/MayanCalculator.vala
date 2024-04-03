@@ -6,7 +6,7 @@ public class MayanCalculator.Application : Adw.Application {
 	}
 
 	public override void activate() {
-		int days_since_epoch = (int) new DateTime.now_utc().to_unix()/86400;
+		int days_since_epoch = (int) new DateTime.now_local().to_unix()/86400;
 
 		this.model = new MayanCalculator.LongCountModel(days_since_epoch);
 

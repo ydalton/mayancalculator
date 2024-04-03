@@ -3,6 +3,7 @@ sources += files(
   'MayanCalculator.vala',
   'Window.vala',
   'LongCountModel.vala',
+  'ResultWindow.vala'
 )
 
 sources += gnome.compile_resources(

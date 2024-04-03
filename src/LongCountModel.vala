@@ -1,7 +1,7 @@
 public const int unix_epoch = 1856305; 
 
 public class MayanCalculator.LongCountModel {
-	public int date { get; private set; }
+	public int date { get; set; }
 
 	public LongCountModel(int date) {
 		this.date = date;
