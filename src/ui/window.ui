@@ -11,6 +11,9 @@
 				<child type="top">
 					<object class="AdwHeaderBar"/>
 				</child>
+				<!--
+				TODO: add a date input method.
+				-->
 				<property name="content">
 					<object class="GtkBox">
 						<property name="halign">center</property>

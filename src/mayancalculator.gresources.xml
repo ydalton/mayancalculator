@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
+<!--
+This is a gresource file. Here we include all the files (usually UI files but
+also icons, images, etc...) we would like to embed into our final binary. Under
+the hood, it is compiled to a C source and header file and then compiled into
+the final binary.
+-->
 <gresources>
 	<gresource prefix="/io/github/ydalton/MayanCalculator">
 		<file preprocess="xml-stripblanks">ui/window.ui</file>

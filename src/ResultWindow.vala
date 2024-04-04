@@ -1,3 +1,7 @@
+/*
+ * This window shows the result of the calculation.
+ */
+
 [GtkTemplate(ui = "/io/github/ydalton/MayanCalculator/ui/dialog.ui")]
 public class MayanCalculator.ResultWindow : Adw.Window {
 	[GtkChild]

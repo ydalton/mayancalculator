@@ -1,3 +1,5 @@
+# Include extra files in the src/ directory.
+
 sources += files(
   'Main.vala',
   'MayanCalculator.vala',

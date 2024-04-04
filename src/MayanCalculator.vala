@@ -1,3 +1,9 @@
+/*
+ * This is the main application, it represents the application as a whole. It is
+ * common practice to subclass the GtkApplication (in this case AdwApplication)
+ * class in order to override certain properties.
+ */ 
+
 public class MayanCalculator.Application : Adw.Application {
 	internal MayanCalculator.LongCountModel model;
 

@@ -15,6 +15,9 @@
 						<property name="show-title">false</property>
 					</object>
 				</child>
+				<!--
+				TODO: Add a close button
+				-->
 				<property name="content">
 					<object class="GtkBox">
 						<property name="orientation">vertical</property>
